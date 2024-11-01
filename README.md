@@ -1,1 +1,1 @@
-My portfolio, made with a template by Syed Mohsin
+My portfolio, made with a template by Syed Mohisn
