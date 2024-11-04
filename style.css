@@ -482,12 +482,12 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/hero-bg.webp");
+    url("assets/images/Image84_001.png");
 }
 
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/hero-bg-light.webp");
+    url("assets/images/SR24\ Render\ Close\ Angle\ Right.webp";
 }
 
 .header-textbox {
