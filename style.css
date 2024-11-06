@@ -522,12 +522,12 @@ body.dyno-page.light .header {
 
 body.extra-page.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/SR24\ Dark\ theme.png");
+    url("assets/images/Nail\ Remover\ Drawing.png");
 }
 
 body.extra-page.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/SR24\ light\ theme.png");
+    url("assets/images/Nail\ Remover\ Drawing.png");
 }
 
 .header-textbox {
