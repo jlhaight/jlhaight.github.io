@@ -74,9 +74,12 @@
                 <h3 class="h3">Design</h3>
                 <!-- Add small description of your project  -->
                 <p class="work-text">
-                 The design for the steering wheel was inspired by F1, and uses 
-                 a number of techniques to combine ergonomics, aesthetics,
-                 and robustness. Click below to learn more!  
+                 This design is a direct iteration to the previous year, which saw no failures during testing or competetion. However, they were
+                 overbuilt (FoS of 7.2) and a little difficult to machine. As such, I set out to reduce weight by at least 10%, and machine time 
+                 by 15%. I initally thought that because our car does not have a reverse gear, I would be able to optimize the topology for torque
+                 applied continuously in one direction. However, it soon became apparent that a symmetrical design would be better for transients 
+                 seen during operation, and so decided to mimic the previous year. To decrease weight, I reduced both wall and arm thickness, and 
+                 removed all non-essential filets to lower machine time. From here, it was a matter of tweaking the design with our head CNC machinist.
                 </p>
               </div>
 
@@ -85,7 +88,7 @@
               <picture class="work-img">
                 <img
                   loading="lazy"
-                  src="assets/images/Steering Wheel.png"
+                  src="assets/images/rubs front.jpg"
                   alt="Steering Wheel"
                 />
               </picture>
@@ -97,9 +100,12 @@
                 <!-- Add small description of your project  -->
 
                 <p class="work-text">
-                  These rear hubs have been designed to take substantial 
-                  loads for an extended period of time, all while being 
-                  more manufacturable and 15% lighter than last year.
+                    What you are seeing on the right is a structural analysis done in Ansys. The loads for this simulation were taken directly
+                    from our wheel force transducer testing, and account for the maximum loads and moments in all three coordinate directions. 
+                    For the boundary conditions, the hub is cylindrically constrained along the trilobe surface (which is where torque is applied
+                    from the rear half-shaft), and has a frictionless surface support along the back face and bolted connections. From here, I setup
+                    a remote force and remote moment, setting the bolt holes as the load bearing surfaces. I also setup different coordinate systems
+                    corresponding to different wheel rotations to make sure that the hubs could take any expected load in any orientation. 
                 </p>
               </div>
 
@@ -118,9 +124,9 @@
                 <h3 class="h3">Manufacturing</h3>
                 <!-- Add small description of your project  -->
                 <p class="work-text">
-                  Our car uses a custom CVT, which requires extensive testing and validation
-                  to reach optimal performance. This dyno, which is still being designed, 
-                  will allow us to get more data with less drive time.
+                  Currently in progress, the CAM profile for these hubs was done in Fusion 360, and machining will be done with two fixtures on 
+                  a 3 axis Haas CNC mill. The roughing passes will be done with a half inch end mill and finishing passes for contours done with 
+                  a half inch ball nose. 
                 </p>
               </div>
          <!-- Update img src and alt attribute  -->
