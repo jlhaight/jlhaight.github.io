@@ -482,22 +482,22 @@ main {
 
 body.index-page.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/SR24\ Dark\ theme.png");
+    url("assets/images/SR24\ Dark\ theme.jpg");
 }
 
 body.index-page.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/SR24\ light\ theme.png");
+    url("assets/images/SR24\ light\ theme.jpg");
 }
 
 body.wheel-page.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/Steering\ Wheel.png");
+    url("assets/images/Steering\ Wheel.jpg");
 }
 
 body.wheel-page.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/Steering\ Wheel.png");
+    url("assets/images/Steering\ Wheel.jpg");
 }
 
 body.rubs-page.dark .header {
@@ -512,22 +512,22 @@ body.rubs-page.light .header {
 
 body.dyno-page.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/CVT\ Dyno\ CAD.png");
+    url("assets/images/CVT\ Dyno\ CAD.jpg");
 }
 
 body.dyno-page.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/CVT\ Dyno\ CAD.png");
+    url("assets/images/CVT\ Dyno\ CAD.jpg");
 }
 
 body.extra-page.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/Nail\ Remover\ Drawing.png");
+    url("assets/images/Round\ 3\ Assembly.JPG");
 }
 
 body.extra-page.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/Nail\ Remover\ Drawing.png");
+    url("assets/images/Round\ 3\ Assembly.JPG");
 }
 
 .header-textbox {
