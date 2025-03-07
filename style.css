@@ -512,12 +512,12 @@ body.rubs-page.light .header {
 
 body.dyno-page.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/CVT\ Dyno\ CAD.jpg");
+    url("assets/images/UpdatedDyno.jpg");
 }
 
 body.dyno-page.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/CVT\ Dyno\ CAD.jpg");
+    url("assets/images/UpdatedDyno.jpg");
 }
 
 body.extra-page.dark .header {
